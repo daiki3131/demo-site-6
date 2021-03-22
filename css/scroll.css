@@ -1,0 +1,5 @@
+/* js スクロールで色変更 */
+.header.headerColorScroll {
+  height: 60px;
+  background: rgba(0, 0, 0, .8);
+}

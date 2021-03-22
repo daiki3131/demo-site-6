@@ -1,0 +1,258 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #333;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+h3 {
+  display: inline-block;
+  margin-bottom: 70px;
+  font-size: 60px;
+  font-family: Noto Serif;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+h3:after {
+  content: '';
+  display: inline-block;
+  width: 200px;
+  height: 5px;
+  margin-left: 30px;
+  background: #333333;
+  vertical-align: middle;
+}
+
+section {
+  padding: 100px 0 70px;
+}
+
+section:first-child {
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+}
+
+.content {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.btn_wrap {
+  margin-top: 80px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 20px 70px;
+  background: #f7d43f;
+  border-radius: 50px;
+}
+
+.transparent {
+  font-size: 90px;
+  font-family: Noto Serif;
+  line-height: 1;
+  opacity: .1;
+}
+
+.sp {
+  display: none;
+}
+
+/* header */
+.header {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  font-family: Noto Serif;
+  font-style: italic;
+}
+
+.header .left {
+  position: absolute;
+  top: 20px;
+  left: 120px;
+}
+
+.header .left .logo {
+  color: #ffffff;
+  font-size: 26px;
+  line-height: .8;
+}
+
+.header .right {
+  position: absolute;
+  top: 20px;
+  right: 120px;
+  z-index: 100;
+}
+
+.header .right .gNav li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.header .right .gNav li:last-child {
+  margin-right: 0;
+}
+
+.header .right .gNav li a {
+  display: block;
+  color: #ffffff;
+}
+
+/* main */
+/* article */
+/*-- mainVisual --*/
+.mainVisual {
+  position: relative;
+}
+
+.mainVisual .img_wrap {
+  overflow: hidden;
+}
+
+.mainVisual .txt_content {
+  position: absolute;
+  bottom: 180px;
+  left: 120px;
+  color: #ffffff;
+}
+
+.mainVisual .txt_content .catch_en {
+  margin-bottom: 30px;
+  font-size: 70px;
+  font-family: Noto Serif;
+  letter-spacing: 1px;
+}
+
+.mainVisual .txt_content .catch_ja {
+  margin-left: 30px;
+  font-size: 40px;
+}
+
+/*-- concept --*/
+.concept .content {
+  margin-bottom: 70px;
+}
+
+.concept .content .subTitle {
+  margin-bottom: 60px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.concept .content .flex_box {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.concept .transparent {
+  text-align: right;
+}
+
+/*-- works --*/
+.works {
+  background-image: url(../images/works-bgi2x.jpg);
+  background-size: cover;
+}
+
+.works .title_wrap {
+  text-align: right;
+}
+
+.works .title_wrap h3 {
+  color: #ffffff;
+}
+
+.works .title_wrap h3::after {
+  background: #ffffff;
+}
+
+.works .flex_box .txt {
+  height: 130px;
+  padding: 25px;
+  background: #ffffff;
+}
+
+.works .transparent {
+  color: #ffffff;
+}
+
+/*-- service --*/
+.service .flex_box {
+  margin: 0 0 70px 0;
+}
+
+.service .flex_box .cardBox {
+  position: relative;
+  padding: 0;
+}
+
+.service .flex_box .cardBox .txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 40px;
+  font-family: Noto Serif;
+}
+
+.service .transparent {
+  text-align: right;
+}
+
+/*-- contact --*/
+.contact {
+  background: url(../images/contact-bgi2x.jpg);
+  background-size: cover;
+}
+
+.contact .title_wrap {
+  text-align: right;
+}
+
+.contact .title_wrap h3 {
+  color: #ffffff;
+}
+
+.contact .title_wrap h3::after {
+  background: #ffffff;
+}
+
+.contact .txt {
+  color: #ffffff;
+  text-align: center;
+}
+
+.contact .transparent {
+  color: #ffffff;
+}
+
+/* footer */
+.footer .copyright {
+  display: block;
+  padding: 30px 0;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
